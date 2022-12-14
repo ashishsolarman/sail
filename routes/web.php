@@ -6,12 +6,9 @@ use Illuminate\Support\Facades\Route;
      use App\Http\Controllers\UserController;
      
       use App\Http\Controllers\Auth\LoginController;
-     
 
+      //arun
 
-
-
-      
 Route::get('/', function () {
     return view('auth.login');
 });
